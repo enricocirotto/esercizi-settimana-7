@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>esercizioprimo</title>
+</head>
+<body>
+
+    <h1>Form per Animali Domestici</h1>
+
+    
+    <form>
+        <label for="petName">Nome Animale:</label>
+        <input type="text" id="petName" required>
+
+        <label for="ownerName">Nome Proprietario:</label>
+        <input type="text" id="ownerName" required>
+
+        <label for="species">Specie:</label>
+        <input type="text" id="species" required>
+
+        <label for="breed">Razza:</label>
+        <input type="text" id="breed" required>
+
+        <button type="button" onclick="createPet()">Aggiungi Animale</button>
+    </form>
+
+   
+    <h2>Lista Animali Domestici</h2>
+    <ul id="petList"></ul>
+
+
+    <script src="file.js"></script>
+
+</body>
+</html>
