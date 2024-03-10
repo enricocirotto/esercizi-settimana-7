@@ -1,0 +1,12 @@
+.colore{
+    background-color: #231f20;
+}
+
+.indietro {
+    color: #FFA500 !important; 
+}
+
+.indietro:hover {
+    color: #FFA500 !important;   
+    opacity: 0.7;
+}
